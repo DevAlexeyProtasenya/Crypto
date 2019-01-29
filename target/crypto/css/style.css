@@ -1,0 +1,182 @@
+header {
+  text-align: center; 
+  height: 15px; 
+  padding-top:20px;
+}
+
+div#textID {
+  padding-left: 60px;
+  text-align: right;
+  font-size: 26px;
+  font-family: Arial;
+  color: red;
+  margin: 25px;
+}
+
+.color{
+  color:black;
+}
+
+div#textID li {
+  text-align: left;
+  list-style-type: none;
+  font-size: 24px;
+  font-family: Arial;
+  color: red;
+}
+
+footer{
+  text-align: center; 
+}
+
+body {
+  background-size: 100vw;
+  background-position: 0 -10vh;
+}
+
+body#registration {
+  padding-top:200px;
+  background: url(../backgrounds/backgroundreg.jpg) no-repeat center fixed;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#form {
+  border-style: solid;
+  border-color: black;
+  border-width: 4px;
+}
+
+button {
+  height: 50px;
+  width: 170px;
+  align-content: center;
+}
+
+.editsvideo {
+  padding-left: 230px;
+}
+
+.info{
+  padding-top: 15px;
+  width: 120px;
+    height: 90px;
+    bottom: 250px;
+    background: #000000;
+    border-radius: 0 10px 10px 0;
+    position: fixed;
+    cursor: pointer;
+    font-family: body;
+}
+
+#content{
+  background: rgba(80, 119, 184, 0.8);
+  background: linear-gradient(20deg, rgba(175, 175, 175, 0.8) 10%, rgba(255, 255, 255, 0.8) 83%);
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom:30px;
+  margin-top:30px;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+#textInfo{
+text-align:justify;
+padding-right: 10px;
+padding-left: 10px;
+font-family: arial;
+font-size: 12pt;
+}
+
+.ellipse1 {
+  padding-top: 20px;
+  position: relative;
+  display:inline-block;
+  top:10px;
+  right:-5%;
+  width: 228px;
+  height: 70px;
+    background: black;
+  border-radius: 100px / 50px;
+    margin: 15px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+}
+
+.ellipse2 {
+  padding-top: 20px;
+  position: relative;
+  display:inline-block;
+  top:10px;
+  right:0%;
+  width: 228px;
+  height: 70px;
+    background: black;
+  border-radius: 100px / 50px;
+    margin: 15px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+}
+
+.ellipse3 {
+  padding-top: 20px;
+  position: relative;
+  display:inline-block;
+  top:10px;
+  right:5%;
+  width: 228px;
+  height: 70px;
+    background: black;
+  border-radius: 100px / 50px;
+    margin: 15px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+}
+
+.textSymbol{
+  font-family: websymbol; color:#ffffff; text-decoration: none;
+}
+.textOther{
+  font-family: arial; color:#ffffff; text-decoration: none;
+}
+.text:hover{
+  text-shadow: 0px 0px 0.5px #ed2828;
+}
+
+
+.ellipse1:hover{
+            -webkit-animation: hoover_size 2s infinite;
+        }
+.ellipse2:hover{
+            -webkit-animation: hoover_size 2s infinite;
+        }
+.ellipse3:hover{
+            -webkit-animation: hoover_size 2s infinite;
+        }
+
+#blink{
+    -webkit-animation: blink 2s linear infinite;
+  animation: blink 2s linear infinite;
+}
+@-webkit-keyframes blink {
+    30%{color:rgb(255, 0, 0)}
+    50%{color:rgb(237, 21, 21)}
+  70%{color:rgb(241, 86, 81)}
+  80%{color:rgb(228, 162, 162)}
+  100%{color:rgb(242, 223, 223)}}
+  @keyframes blink {
+    30%{color:rgb(255, 0, 0)}
+    50%{color:rgb(237, 21, 21)}
+    70%{color:rgb(241, 86, 81)}
+    80%{color:rgb(228, 162, 162)}
+    100%{color:rgb(242, 223, 223)}
+  }
+
+@keyframes hoover_size {
+     0%   { transform:  scale(1)}
+     50%  { transform:  scale(1.05)}
+     100%   { transform:  scale(1)}
+    }

@@ -1,0 +1,253 @@
+.crypto-image {
+    float: left;
+    width: 10%;
+}
+
+h1{
+    font-size: 26px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.crypto-details {
+    float: left;
+    width: 10%;
+}
+
+.crypto-price {
+    float: left;
+    width: 10%;
+    font-size: 18pt;
+    color: white;
+}
+
+.cryptoprice {
+    float: left;
+    width: 10%;
+    font-size: 18pt;
+    color: white;
+
+}
+
+.crypto-quantity {
+    float: left;
+    width: 12%;
+}
+
+.crypto-removal {
+    float: left;
+    width: 10%;
+    padding-left: 20px;
+}
+
+.crypto-line-price {
+    float: left;
+    width: 9%;
+    text-align: right;
+    font-size: 18pt;
+    color: white;
+
+}
+
+.crypto-description {
+    font-size: 18pt;
+    color: white;
+}
+
+.crypto-amount{
+    font-size: 18pt;
+    color: white;
+}
+
+label.crypto-details, label.crypto-price, label.crypto-image, label.crypto-quantity label.crypto-removal label.crypto-line-price {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+div.crypto-details, div.crypto-price, div.cryptoprice{
+    padding-top: 15px;
+}
+
+/* This is used as the traditional .clearfix class */
+.group:before, .shopping-cart:before, .column-labels:before, .crypto:before, .totals-item:before,
+.group:after,
+.shopping-cart:after,
+.column-labels:after,
+.crypto:after,
+.totals-item:after {
+    content: '';
+    display: table;
+}
+
+.crypto .remove-crypto {
+    height: 50px;
+    width: 90px;
+    border: 0;
+    padding: 4px 8px;
+    background-color: #c66;
+    color: #fff;
+    font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium";
+    font-size: 17px;
+    border-radius: 3px;
+    margin-left: 0px;
+}
+.crypto .remove-crypto:hover {
+    background-color: #a44;
+}
+
+.group:after, .shopping-cart:after, .column-labels:after, .crypto:after, .totals-item:after {
+    clear: both;
+}
+
+.group, .shopping-cart, .column-labels, .crypto, .totals-item {
+    zoom: 1;
+}
+
+/* Apply clearfix in a few places */
+/* Apply dollar signs */
+.crypto .crypto-price:before, .crypto .crypto-line-price:before, .totals-value:before {
+    content: '$';
+}
+
+
+h1 {
+    color: white;
+}
+
+label {
+    font-size: 18pt;
+    color: white;
+}
+
+.shopping-cart {
+    margin-top: -48px;
+}
+
+/* Column headers */
+.column-labels label {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+
+}
+.column-labels .crypto-image, .column-labels .crypto-details {
+    text-indent: -9999px;
+}
+
+/* crypto entries */
+.crypto .crypto-image {
+    text-align: center;
+}
+.crypto .crypto-image img {
+    width: 50px;
+}
+
+.crypto .crypto-quantity input {
+    width: 100px;
+    height: 35px;
+    margin-top: 7px;
+}
+
+/* Totals section */
+.totals .totals-item {
+    float: right;
+    clear: both;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: white;
+    margin-top: 70px;
+    margin-right: 750px;
+}
+.totals .totals-item label {
+    float: left;
+    clear: both;
+    width: 79%;
+    text-align: right;
+}
+.totals .totals-item .totals-value {
+    float: right;
+    width: 21%;
+    text-align: right;
+}
+.totals .totals-item-total {
+    font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium";
+}
+
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.credit_card {
+    margin-top: -370px;
+    margin-right: 50px;
+    font-family: Arial;
+    font-size: 14px;
+    padding: 8px;
+    width:250px;
+    position:fixed;
+    top:450px;
+    right:0;
+}
+
+.col-25 {
+    flex: 25;
+    padding: 0 1px;
+}
+
+.container {
+    padding: 5px 2px 5px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+}
+
+input[type=text] {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+label {
+    margin-bottom: 10px;
+    display: block;
+}
+
+label.credit-card{
+    font-size:12pt;
+}
+
+.icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+}
+
+.btnchk {
+    width: 160px;
+    height: 40px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 0px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 3px;
+    font-size: 14px;
+    margin-left: 12px;
+    margin-bottom: 5px;
+}
+
+.btnchk:hover {
+    background-color: #45a049;
+}
+
+input[type=checkbox] {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+input[type=number] {
+    margin-left: 130px;
+}
+

@@ -1,0 +1,17 @@
+idCrypto,name,abbreviation,image,info
+1,Bitcoin,BTC,http://res.cloudinary.com/dyezsobdr/image/upload/v1524272166/crypto/BTC.png,https://inp.one/cryptoworld/bitcoin-3
+2,Ethereum,ETH,http://res.cloudinary.com/dyezsobdr/image/upload/v1524272166/crypto/ETH.png,https://inp.one/cryptoworld/ethereum
+3,Litecoin,LTC,http://res.cloudinary.com/dyezsobdr/image/upload/v1524272168/crypto/LTC.png,https://inp.one/cryptoworld/litecoin
+4,NEO,NEO,http://res.cloudinary.com/dyezsobdr/image/upload/v1524272167/crypto/NEO.png,https://inp.one/cryptoworld/neo-neo
+5,Zcash,ZEC,http://res.cloudinary.com/dyezsobdr/image/upload/v1524272168/crypto/ZEC.png,https://inp.one/cryptoworld/kriptovalyuta-zcash-zec-obzor
+6,"Binance Coin",BNC,http://res.cloudinary.com/dyezsobdr/image/upload/v1524272166/crypto/BNC.png,https://inp.one/cryptoworld/binance
+7,Dogecoin,DOGE,http://res.cloudinary.com/dyezsobdr/image/upload/v1524272167/crypto/DOGE.png,https://inp.one/cryptoworld/kriptovalyuta-dogecoin-doge-obzor
+8,Monero,XMR,http://res.cloudinary.com/dyezsobdr/image/upload/v1524272167/crypto/XMR.png,https://inp.one/cryptoworld/monero
+9,Tron,TRX,http://res.cloudinary.com/dyezsobdr/image/upload/v1524272167/crypto/TRX.png,https://inp.one/cryptoworld/cryptocurrency/tron-trx-kriptovalyuta-obzor
+10,EOS,EOS,http://res.cloudinary.com/dyezsobdr/image/upload/v1524272166/crypto/EOS.png,https://inp.one/cryptoworld/eos
+11,Icon,ICX,http://res.cloudinary.com/dyezsobdr/image/upload/v1524272167/crypto/ICX.ico,https://inp.one/cryptoworld/icon-corrency-obzor
+12,NEM,XEM,http://res.cloudinary.com/dyezsobdr/image/upload/v1524272167/crypto/XEM.png,https://inp.one/cryptoworld/nem-xem
+13,Ripple,XRP,http://res.cloudinary.com/dyezsobdr/image/upload/v1524272167/crypto/XRP.png,https://inp.one/cryptoworld/ripple
+14,MIOTA,IOTA,http://res.cloudinary.com/dyezsobdr/image/upload/v1524272167/crypto/IOTA.png,https://inp.one/cryptoworld/iota-miota
+15,"Bitcoin Cash",BCH,http://res.cloudinary.com/dyezsobdr/image/upload/v1524272166/crypto/BCH.png,https://inp.one/cryptoworld/bitcoin-cash-bch-obzor
+16,Cardano,ADA,http://res.cloudinary.com/dyezsobdr/image/upload/v1524272166/crypto/ADA.png,https://inp.one/cryptoworld/cryptocurrency/cardano-ada
